@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+   <ion-thumbnail slot="end">
+        <img src="assets/img/Logo ZonaMarket1.png" />
+        </ion-thumbnail>
+    <ion-title>
+      ZonaMarket
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="auth-form" >
+  <ion-grid>
+    <ion-row id="container">
+      <ion-col align-self-center>
+        <ion-button [routerLink]="['/register']" expand="block" color="primary">Registrar</ion-button>
+        <br>
+        <span class="already"> Ya eres Usuario?</span>
+        <br><br>
+        <ion-button [routerLink]="['/login']" expand="block" color="danger">Iniciar Sesión</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

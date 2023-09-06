@@ -1,0 +1,63 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+        <ion-thumbnail slot="start">
+        <img src="assets/img/Logo ZonaMarket1.png" />
+        </ion-thumbnail>
+    <ion-title size="primary">Comercios Favoritos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<br><br>
+<ion-card>
+    <ion-card-header>
+    <ion-card-title>Comercios Favorito</ion-card-title>
+    </ion-card-header>
+  <ion-card-content>
+    <ion-list>
+  
+    <ion-item-sliding>
+      <ion-item-options side="start">
+      <ion-item-option color="success">Más</ion-item-option>
+    </ion-item-options>
+
+    <ion-item>
+        <ion-thumbnail slot="start">
+        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+        </ion-thumbnail>
+        <ion-label>Comida china mandarina</ion-label>
+    </ion-item>
+
+    <ion-item-options side="end">
+      <ion-item-option>Favorito<ion-icon slot="end" name="heart-outline"></ion-icon></ion-item-option>
+      <ion-item-option color="danger">Eliminar<ion-icon slot="end" name="trash-outline"></ion-icon></ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+
+
+<ion-item-sliding>
+    <ion-item-options side="start">
+      <ion-item-option color="success">Más</ion-item-option>
+    </ion-item-options>
+
+    <ion-item>
+        <ion-thumbnail slot="start">
+        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+        </ion-thumbnail>
+      <ion-label> don pepo </ion-label>
+    </ion-item>
+
+    <ion-item-options>
+      <ion-item-option><ion-icon slot="bottom" name="heart"></ion-icon>
+      Favorite
+      </ion-item-option>
+      <ion-item-option color="danger">
+        <ion-icon slot="bottom" name="trash"></ion-icon>
+        Delete
+      </ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+    </ion-list>
+  </ion-card-content>
+</ion-card>
+</ion-content >
